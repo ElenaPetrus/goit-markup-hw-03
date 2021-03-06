@@ -1,0 +1,228 @@
+:root {
+    --main-font: "Roboto", sans-serif; 
+    --secondary-font: "Raleway", sans-serif;
+    --accent-color: #2196F3;
+    --main-color: #212121;
+    --secondary-collor: #757575;
+    --contrast-color: #FFFFFF;
+    --secondblack-color:  #000000;
+    --footer-color: rgba(255, 255, 255, 0.6);
+}
+
+body {  
+    font-family: var(--main-font);    
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+    }
+.hidden {
+    display: none;  
+}
+.address {
+    font-style: normal;
+}
+/*====================COMPONENTS===========================*/
+.logopart1 {
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    
+    color: var(--accent-color);
+}
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    
+    color: var(--main-color);
+    }
+/*====================END COMPONENTS===========================*/
+
+/*====================HEADER===========================*/
+.header-logopart2 {
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    
+    color: var(--secondblack-color);    
+}
+.navigation-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: var(--main-color);
+}
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--accent-color);
+} 
+.active-link {
+    color:var(--accent-color)
+}
+.mail-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--secondary-collor);
+}
+.tel-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--secondary-collor);
+}
+.mail-link:hover,
+.mail-link:focus {
+color: var(--accent-color);
+}
+.tel-link:hover,
+.tel-link:focus {
+color: var(--accent-color);
+}
+/*====================END HEADER===========================*/
+
+/*====================HERO===========================*/
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    /*color: var(--contrast-color);*/
+}
+.hero-btn {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.88;
+    cursor: pointer;
+
+    color: var(--contrast-color);
+    background: var(--accent-color);
+
+}
+/*====================END HERO===========================*/
+
+/*====================ADVANTAGES===========================*/
+.advantage-name {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: var(--main-color);
+}
+.advantage-description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-collor);
+}
+/*====================END ADVANTAGES===========================*/
+
+/*====================WHAT WE DO===========================*/
+/*====================END WHAT WE DO===========================*/
+
+/*====================TEAM===========================*/
+.worker-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--main-color);
+} 
+.position-name {
+font-weight: normal;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--secondary-collor);
+}
+/*====================END TEAM===========================*/
+/*====================FOOTER===========================*/
+.footer-logopart2 {
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em
+    /*color: var(--contrast-color);*/
+}
+.address-link {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+/*color: var(--contrast-color);*/
+}
+.footer-mail-link,
+.footer-tel-link 
+ {
+    font-family:var(--main-font);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+    /*color:var(--footer-color);*/
+}
+/*====================END FOOTER===========================*/
+
+/*====================PROJECT SELECTOR===========================*/
+.selector-btn {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    
+    color: var(--main-color);
+}
+
+.selector-btn:hover,
+.selector-btn:focus {
+    color: var(--contrast-color);
+    background: var(--accent-color);
+}
+/*====================END PROJECT SELECTOR===========================*/
+
+/*====================PROJECT EXAMPLES===========================*/
+
+.project-name {
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    
+    color: var(--main-color);  
+}
+.project-type {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-collor);
+}
+/*====================END PROJECT EXAMPLES===========================*/
