@@ -116,8 +116,10 @@ button {
     line-height: 1.19;
     letter-spacing: 0.03em;
     
-    color: var(--secondblack-color);
-    margin-right: 93px;   
+    color: var(--secondblack-color);      
+}
+.header-logo{
+    margin-right: 93px;
 }
 .navigation-item:not(:last-child) {
     margin-right: 50px;
@@ -144,6 +146,8 @@ button {
     letter-spacing: 0.02em;
 
     color: var(--secondary-collor);
+}
+.contact-item:first-child {
     margin-right: 50px;
 }
 .tel-link {
@@ -183,8 +187,9 @@ color: var(--accent-color);
     text-align: center;
     text-transform: uppercase;
     color: var(--contrast-color);
-    margin-bottom: 30px;
-}
+    max-width: 696px;
+    margin: 0 auto 30px;
+    }
 .hero-btn {
     font-weight: bold;
     font-size: 16px;
@@ -201,7 +206,7 @@ color: var(--accent-color);
 }
 .hero-container{
     text-align: center;
-    padding: 200px 252px;
+    padding: 200px 15px;
 }
 /*====================END HERO===========================*/
 
@@ -252,10 +257,12 @@ color: var(--accent-color);
     flex-wrap: wrap;
     align-items: center;
     margin-left: -30px;
+    margin-top: -30px;
 }
 .doing-item {
     flex-basis: calc(100% /3 - 30px);
     margin-left: 30px;
+    margin-top: 30px;
 }
 /*====================END WHAT WE DO===========================*/
 
@@ -265,10 +272,12 @@ color: var(--accent-color);
     flex-wrap: wrap;
     align-items: center;
     margin-left: -30px;
+    margin-top: -30px;
 }
 .worker-item{
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
+    margin-top: 30px;
 }
 .worker-name {
 font-weight: 500;
@@ -308,6 +317,10 @@ background-color: var(--section-color);
 }
 /*====================END TEAM===========================*/
 /*====================FOOTER===========================*/
+.footer-logo{
+    display: inline-block;
+    margin-bottom: 20px;
+}
 .footer-logopart2 {
     font-family: var(--secondary-font);
     font-weight: bold;
@@ -323,7 +336,6 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--contrast-color);
 display: inline-block;
-margin-top: 20px;
 }
 .footer-mail-link,
 .footer-tel-link 
@@ -350,7 +362,7 @@ background-color:var(--footer-color);
 .selector-list{
     display: flex;
     justify-content: center;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .selector-item:not(:last-child){
     margin-right: 8px;  
@@ -407,7 +419,7 @@ background-color:var(--footer-color);
 .project-item{
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 .project-name {
     font-family: var(--main-font);
